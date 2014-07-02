@@ -1,9 +1,11 @@
 <?php
 
+namespace Polish;
+
 /**
  * Class CalcReversePolishException
  */
-class CalcReversePolishException extends Exception {
+class CalcReversePolishException extends \Exception {
 
     //for custom Exception
 }
@@ -140,6 +142,3 @@ class CalcReversePolish {
     }
 
 }
-
-$p = new CalcReversePolish('5 8 3 + *');
-echo $p->calculate();
